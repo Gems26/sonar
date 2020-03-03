@@ -18,6 +18,7 @@ public class App
 
     public static void main(String[] args) {
         Logger.info(new App().getMessage());
+	System.out.println("hehe");
     }
 
     private final String getMessage() {
